@@ -19,3 +19,5 @@ sudo apt-get install atom
 #5 install git
 sudo apt-get install git -y
 
+#6 install g++/gcc multilib
+sudo apt-get install gcc-multilib g++-multilib
