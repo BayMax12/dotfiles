@@ -1,4 +1,4 @@
-#~/.bashrc: executed by bash(1) for non-login shells.
+# ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -115,5 +115,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias rm='rm -i'
-alias vim='./make.sh'
+export HTTP_PROXY=http://iit2014055:Rajeshwar9@172.31.1.4:8080
+alias rm="rm -i"
+alias vim="sh ~/make.sh"
+alias update="sudo apt-get update"
+alias install="sudo apt-get install"
+alias score="python3 ~/cricket.py"
+alias g++="g++ -std=c++11 -w -O2 -fomit-frame-pointer -lm"
+# compile for gcc plus opengl
+alias glc="sh ~/gl.sh"
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
