@@ -1,3 +1,2 @@
-# myscripts
-commonly used scripts by me to setup ubuntu 
-install common requirements and softwares like java-jdk , atom , updates , etc .
+# shell
+This is a repository aimed at storing my learnings of the UNIX system and the various features i unearth out of those old blogs
